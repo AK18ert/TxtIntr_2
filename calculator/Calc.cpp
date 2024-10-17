@@ -9,11 +9,11 @@
 using namespace std;
 
 void h() {
-    cout << "Как использовать: ./calculator [-t или -c] [-r или -g] [значение] " << endl;
+    cout << "Как использовать: ./calculator [-t или -c] [значение] [-r или -g]" << endl;
     cout << "Первый флаг: -t - арктангенс, -с - арккотангенс" << endl;
-    cout << "Второй флаг: -r - радианы, -g - градусы" << endl;
-    cout << "Последнее: цифра" << endl;
-    cout << "Пример: ./calculator -t -g 60" << endl;
+    cout << "Значение: цифра" << endl;
+	cout << "Второй флаг: -r - радианы, -g - градусы" << endl;
+    cout << "Пример: ./calculator -t 60 -g" << endl;
 }
 int main(int argc, char *argv[]) {
     if (argc < 4) {
