@@ -12,7 +12,7 @@ void h() {
     cout << "Как использовать: ./calculator [-t или -c] [значение] [-r или -g]" << endl;
     cout << "Первый флаг: -t - арктангенс, -с - арккотангенс" << endl;
     cout << "Значение: цифра" << endl;
-	cout << "Второй флаг: -r - радианы, -g - градусы" << endl;
+    cout << "Второй флаг: -r - радианы, -g - градусы" << endl;
     cout << "Пример: ./calculator -t 60 -g" << endl;
 }
 int main(int argc, char *argv[]) {
